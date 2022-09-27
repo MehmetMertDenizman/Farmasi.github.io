@@ -1,0 +1,46 @@
+ 
+ *{padding: 0; margin: 0;}
+
+ 
+ 
+ 
+.begin
+{
+    height: 100%;
+    width: 100%;
+}
+.header
+{
+    align-items: center;
+    padding: 0cm;
+    margin: 0cm;
+background-color: rgb(0, 0, 0)  ;
+ 
+font-size: 25px;
+display: flex;
+color: white; 
+justify-content:space-between;
+height: 80px;
+ position: sticky;
+ top: 0;
+  
+}
+.headerRight{
+height:  auto;
+width: auto;
+text-decoration: none;
+position: sticky;
+}
+.social-icon{
+    text-decoration: none;
+}
+
+.midPhoto
+{
+     margin-left: 30px;
+     margin-right: 30px;
+      
+     height: fit-content;
+     
+}
+
