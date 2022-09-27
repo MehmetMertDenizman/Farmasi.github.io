@@ -7,6 +7,14 @@
     list-style: none;
  
  }
+ html,body
+{
+    width: 100vw;
+    height: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 .body
 {
