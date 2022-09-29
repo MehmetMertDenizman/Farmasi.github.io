@@ -60,11 +60,14 @@
  width: 100%;
 height: auto;
 }
+.row{ align-items: center;
+  justify-content: center;}
 .col-sm-3
 { display: flex;
   flex-direction: row;
-  justify-content: space-between;
- 
+  
+ align-items: center;
+justify-content: center;
    max-width: 23em;
    height: 23em;
   }
@@ -151,7 +154,11 @@ height: auto;
  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
  
-
+.contactForm
+{
+  display: flex;
+  flex-direction: row;
+}
  form {
    max-width: 620px;
    margin: 50px auto;
