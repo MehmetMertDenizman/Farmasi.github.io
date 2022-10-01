@@ -48,12 +48,14 @@
  .headerMid {
    text-align: justify;
    justify-items: center;
-    
+
  }
+
  .headerMid a {
-  text-decoration: none;
-   
-}
+   text-decoration: none;
+
+ }
+
  .headerRight {
 
    text-decoration: none;
@@ -82,17 +84,27 @@
    display: flex;
    flex-direction: row;
    /*border: 6px solid #859c2879;*/
-   align-items: center;
-
+    width: 100vw;
+ max-width: 95%;
+ 
 
 
  }
 
 
 
- @media only screen and(max-width: 255px) {}
+ @media only screen and(max-width: 255px) {.contactForm{display: flex;flex-direction:column;}
 
- @media only screen and (min-width: 300px) {
+   .container-text-center,
+   .midPhoto,
+   .headerMid,
+   .headerRight {
+     display: none;
+     
+   }
+
+   @media only screen and (min-width: 300px) {.contactForm{display: flex;flex-direction:column;}}
+   
    .col-s-1 {
      width: 8.33%;
    }
@@ -142,8 +154,9 @@
    }
  }
 
- @media only screen and (max-width: 767px) {
-
+ @media only screen and (max-width: 767px) {.contactForm{display: flex;flex-direction:column;}
+  
+   .container-text-center,
    .midPhoto,
    .headerMid,
    .headerRight {
@@ -200,7 +213,7 @@
    }
  }
 
- @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) {.contactForm{display: flex;flex-direction:row;}
    .col-1 {
      width: 8.33%;
    }
@@ -292,45 +305,44 @@
  }
 
  .contact-left {
-  margin-left: 3%;
+
    width: 25%;
-   display: flex;
-   flex-direction: column;
+
    border: 2px solid green;
    background-color: rgb(203, 233, 158);
  }
 
- .contact {
-   display: flex;
-   flex-direction: row;
-   cursor: pointer !important;
-   margin-left: 5%;
+ .contact {}
+
+ .contact-right {
+  margin-left: 5%;
+   width: 75%;
  }
- .contact-right{width: 75%; }
- .contact-left img {
-   width: 50px;
- }
+
+ .contact-left img {}
 
  .feedback-input {
    cursor: pointer auto;
  }
 
- .solid { 
-  border-top: 1px solid green;}
+ .solid {
+   border-top: 1px solid green;
+ }
 
  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
  .contactForm {
-   display: flex;
-   flex-direction: row;
-  justify-content: space-around;
-    
+
+   margin: 3%;
+   width: 100vw;
+   height: auto;
+
  }
 
  form {
    max-width: 1620px;
-   
+
  }
 
  .feedback-input {
