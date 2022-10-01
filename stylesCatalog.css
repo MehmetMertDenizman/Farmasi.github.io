@@ -1,35 +1,16 @@
 
 body{width: 100%;
 height: auto;
+ }
  
+ .slidecontainer {
+  width: 100%;  
+  display: flex;
+  overflow-x: auto;
 }
-.header {
-    align-items: center;
-    padding: 0cm;
-    margin: 0cm;
-    background-color: rgb(0, 0, 0);
-      
-    font-size: 25px;
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    height:3em;
-     
-    top: 0;
-  
-  }
- 
-  .headerMid {
-    text-align: justify;
-    justify-items: center;
-  }
- 
-  .headerRight {
-    
-    text-decoration: none;
-    position: sticky;
-  }
-  .carousel{ 
+.col-s-3{width: 300px;flex-shrink: 0;height: 100%;}
+.carousel-inner{width: 300px;flex-shrink: 0;height: 100%;}
+.carousel{ 
  
      
     display: flex;
@@ -39,7 +20,7 @@ height: auto;
    
    
  
-  .carousel img{   
+.carousel img{   
     width: 100vw; height:100vh;    }
 
 @media only screen and(max-width: 255px) {

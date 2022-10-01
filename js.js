@@ -1,1 +1,0 @@
-$("#iletisim").load("about.html");
