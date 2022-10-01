@@ -1,27 +1,72 @@
-
-body{width: 100%;
-height: auto;
- }
  
+ html{width: 100vw;
+  height: 100vh;
+padding: 0;}
+ 
+ #navbar {
+  width: 100%;
+  height: 15%;
+  position: absolute;
+display: inline-block;
+border: 6px solid red;
+background-color: #333;
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar > * {
+  padding: 1rem; display: inline-block;
+}
+.nav-container{
+ 
+  opacity: 0;}
+.nav-container:hover{ 
+  opacity: 1;}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.nav-container:hover #navbar {
+  
+ 
+}
+#farmasilogo{max-height: 3em;max-width: 3em;
+   width: 100%; height: 100vh;}
+.nav-container img{   
+ 
+}
+.nav-container{   
+  background-color: #333;
+}
  .slidecontainer {
   width: 100%;  
   display: flex;
-  overflow-x: auto;
+  overflow-x: auto;  height: auto;
 }
-.col-s-3{width: 300px;flex-shrink: 0;height: 100%;}
-.carousel-inner{width: 300px;flex-shrink: 0;height: 100%;}
+.carousel-inner{
+   height: 100vh;
+   width: 100vw;
+}
 .carousel{ 
- 
-     
+  
+  width:  100vw;  height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
       }
    
    
  
-.carousel img{   
-    width: 100vw; height:100vh;    }
+.carousel img{  height: 100vh;
+   
+  width:100%; 
+  max-height: 100%;
+  max-width: 100%;  }
 
 @media only screen and(max-width: 255px) {
   
