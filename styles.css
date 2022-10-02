@@ -21,7 +21,7 @@
    overflow-x: hidden;
 
  }
- body{background: url("/assets/images/background/makesumo-_X15wtLFLh4-unsplash.jpg"); 
+ body{background-image: linear-gradient(to right, rgb(6, 1, 19), rgb(6, 1, 19));
     }
 div{}
  .body {  
@@ -83,10 +83,23 @@ div{}
    /*border: 6px solid #469731;*/
    justify-content: space-between;
  }
-
+ .col-sm-3 img:hover { 
+    transition: 0.3s all ease-in-out;
+   transform: scale(1.2);
+      padding: -25%;
+  }
+  .midText{color: rgb(255, 255, 255);}
+  .midText p{color: rgb(255, 255, 255)!important;}
+   
  .col-sm-3 {
+  
    display: flex;
    flex-direction: row;
+
+   justify-content: space-between;
+   margin-left: 3%;
+   margin-right: 3%;
+
    /*border: 6px solid #859c2879;*/
     width: 100vw;
  max-width: 95%;
@@ -98,7 +111,7 @@ div{}
 
 
  @media only screen and(max-width: 255px) {.contactForm{display: flex;flex-direction:column;}
-
+.contact-left{justify-content: center;align-items: center;}
    .container-text-center,
    .midPhoto,
    .headerMid,
@@ -108,7 +121,7 @@ div{}
    }
 
    @media only screen and (min-width: 300px) {.contactForm{display: flex;flex-direction:column;}}
-   
+   .contact-left{justify-content: center;align-items: center; padding:50%; width: 55%;}
    .col-s-1 {
      width: 8.33%;
    }
@@ -159,7 +172,7 @@ div{}
  }
 
  @media only screen and (max-width: 767px) {.contactForm{display: flex;flex-direction:column;}
-  
+ .contact-left{ text-align: center;  width: 90vw;min-width: 90vw;   }
    .container-text-center,
    .midPhoto,
    .headerMid,
@@ -357,7 +370,7 @@ div{}
    border-radius: 5px;
    line-height: 22px;
    background-color: transparent;
-   border: 2px solid #CC6666;
+   border: 2px solid #ffffff;
    transition: all 0.3s;
    padding: 13px;
    margin-bottom: 15px;
@@ -367,7 +380,7 @@ div{}
  }
 
  .feedback-input:focus {
-   border: 2px solid #CC4949;
+   border: 2px solid rgb(0, 255, 213);
  }
 
  textarea {
@@ -379,19 +392,21 @@ div{}
  [type="submit"] {
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
    width: 100%;
-   background: #CC6666;
+   background: rgb(0, 255, 213);
    border-radius: 5px;
    border: 0;
    cursor: pointer;
-   color: white;
+   color: rgb(0, 255, 213);
    font-size: 24px;
    padding-top: 10px;
    padding-bottom: 10px;
    transition: all 0.3s;
    margin-top: -4px;
    font-weight: 700;
+  color: white;
  }
 
  [type="submit"]:hover {
-   background: #CC4949;
+   background: white;
+   color: rgb(0, 255, 213);
  }
