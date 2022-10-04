@@ -1,6 +1,5 @@
  * {
  
-   
    margin: 0;
    padding: 0;
    border: 0;
@@ -21,7 +20,8 @@
    overflow-x: hidden;
 
  }
- body{background-image: linear-gradient(to right, rgb(6, 1, 19), rgb(6, 1, 19));
+ body{background-color: rgb(245, 245, 245);
+  /* background-image: linear-gradient(to right,rgb(6, 1, 19), rgb(28, 4, 90), rgb(6, 1, 19),rgb(28, 4, 90),rgb(6, 1, 19)); */
     }
 div{}
  .body {  
@@ -38,7 +38,7 @@ div{}
    padding: 0cm;
    margin: 0cm;
    background-color: rgb(0, 0, 0);
-
+    
    font-size: 25px;
    display: flex;
    color: white;
@@ -49,13 +49,13 @@ div{}
 
  }
 
- .headerMid {
+ .headermid {
    text-align: justify;
    justify-items: center;
 
  }
 
- .headerMid a {
+ .headermid a {
    text-decoration: none;
 
  }
@@ -63,7 +63,7 @@ div{}
  .headerRight {
 
    text-decoration: none;
-   position: sticky;
+  
  }
 
  img {
@@ -73,12 +73,13 @@ div{}
 
  .container-text-center {
    /* border: 6px solid #CC4949;*/
-
+background-color:rgb( 0, 255, 255);
    width: 100%;
 
  }
-
- .row {
+.rowup{text-align:center; color: rgb(255, 255, 255);}
+ .row { background-color: rgb(255, 255, 255);
+  /* background-image:linear-gradient(to right,  rgb(23, 34, 65),rgb(0, 66, 255),rgb(6, 1, 19));; */
 
    /*border: 6px solid #469731;*/
    justify-content: space-between;
@@ -86,10 +87,10 @@ div{}
  .col-sm-3 img:hover { 
     transition: 0.3s all ease-in-out;
    transform: scale(1.2);
-      padding: -25%;
+      
   }
-  .midText{color: rgb(255, 255, 255);}
-  .midText p{color: rgb(255, 255, 255)!important;}
+  .midtext{color: rgb(255, 255, 255);background-color:rgb( 0, 255, 255);}
+  .midtext p{color: rgb(255, 255, 255)!important;}
    
  .col-sm-3 {
   
@@ -114,7 +115,7 @@ div{}
 .contact-left{justify-content: center;align-items: center;}
    .container-text-center,
    .midPhoto,
-   .headerMid,
+   .headermid,
    .headerRight {
      display: none;
      
@@ -175,7 +176,7 @@ div{}
  .contact-left{ text-align: center;  width: 90vw;min-width: 90vw;   }
    .container-text-center,
    .midPhoto,
-   .headerMid,
+   .headermid,
    .headerRight {
      display: none;
    }
@@ -291,8 +292,7 @@ div{}
  }
 
  .midPhoto {
-   margin-left: 30px;
-   margin-right: 30px;
+ 
    width: 100%;
    height: fit-content;
 
@@ -329,7 +329,7 @@ div{}
    background-color: rgb(203, 233, 158);
  }
 
- .contact {}
+ .contact {margin-right: 5%;}
 
  .contact-right {
   margin-left: 5%;
@@ -352,7 +352,7 @@ div{}
  .contactForm {
 
    margin: 3%;
-   width: 100vw;
+   width: 95vw;
    height: auto;
 
  }
@@ -370,7 +370,7 @@ div{}
    border-radius: 5px;
    line-height: 22px;
    background-color: transparent;
-   border: 2px solid #ffffff;
+   border: 2px solid #12f7ff;
    transition: all 0.3s;
    padding: 13px;
    margin-bottom: 15px;
